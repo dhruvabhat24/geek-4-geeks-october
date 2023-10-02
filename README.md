@@ -14,3 +14,4 @@ Find the number of land cells in grid for which we cannot walk off the boundary 
 ## 3. Boundary traversal of matrix 
 - You are given a matrix of dimensions n x m. The task is to perform boundary traversal on the matrix in a clockwise manner.
 - Complete the function boundaryTraversal() that takes matrix, n and m as input parameters and returns the list of integers that form the boundary traversal of the matrix in a clockwise manner.
+## 4. Number of Distinct Sequence
