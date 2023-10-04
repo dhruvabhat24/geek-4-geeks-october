@@ -16,3 +16,4 @@ Find the number of land cells in grid for which we cannot walk off the boundary 
 - Complete the function boundaryTraversal() that takes matrix, n and m as input parameters and returns the list of integers that form the boundary traversal of the matrix in a clockwise manner.
 ## 4. Number of Distinct Sequence
 ## 5. Column Name for a given column number 
+## 6. Roman to Integer
