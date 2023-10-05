@@ -17,3 +17,4 @@ Find the number of land cells in grid for which we cannot walk off the boundary 
 ## 4. Number of Distinct Sequence
 ## 5. Column Name for a given column number 
 ## 6. Roman to Integer
+# 7. Majority Element 2
