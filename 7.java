@@ -1,44 +1,50 @@
-class Solution {
-    public List<Integer> majorityElement(int[] nums) {
-       int candidate1 = 0, candidate2 = 0, count1 = 0, count2 = 0;
-        for (int num : nums) {
-            if (num == candidate1) {
-                count1++;
-            } else if (num == candidate2) {
-                count2++;
-            } else if (count1 == 0) {
-                candidate1 = num;
-                count1 = 1;
-            } else if (count2 == 0) {
-                candidate2 = num;
-                count2 = 1;
-            } else {
-                count1--;
-                count2--;
-            }
+//{ Driver Code Starts
+//Initial Template for Java
+
+import java.io.*;
+import java.util.*;
+class GfG
+{
+    public static void main (String[] args)
+    {
+        
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        
+        while(t-- > 0)
+        {
+            String s = sc.next ();
+            int k = sc.nextInt();
+    		System.out.println (new Solution().substrCount (s, k));
         }
-        count1 = 0;
-        count2 = 0;
-        for (int num : nums) {
-            if (num == candidate1) {
-                count1++;
-            } else if (num == candidate2) {
-                count2++;
-            }
-        }
-        List<Integer> result = new ArrayList<>();
-        if (count1 > nums.length / 3) {
-            result.add(candidate1);
-        }
-        if (count2 > nums.length / 3) {
-            result.add(candidate2);
-        }
-        return result;
+        
     }
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] nums = {3, 3, 3, 2, 2, 1, 1, 1};
-        List<Integer> result = solution.majorityElement(nums);
-        System.out.println(result); 
+}
+// } Driver Code Ends
+
+
+class Solution {
+    long substrCount (String S, int K) {
+        return atmost(S,K)-atmost(S,K-1);
+    }
+    
+    long atmost(String s, int k){
+        int arr[] = new int[26];
+        
+        int dist = 0, left = 0;
+        long res = 0;
+        
+        for(int i=0; i<s.length(); i++){
+            arr[s.charAt(i) - 'a']++;
+            if(arr[s.charAt(i) - 'a'] == 1) dist++;
+            
+            while(dist > k){
+                arr[s.charAt(left)-'a']--;
+                if(arr[s.charAt(left)-'a'] == 0) dist--;
+                left++;
+            }
+            res = res + (i-left+1);
+        }
+        return res;
     }
 }
