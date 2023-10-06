@@ -18,3 +18,4 @@ Find the number of land cells in grid for which we cannot walk off the boundary 
 ## 5. Column Name for a given column number 
 ## 6. Roman to Integer
 ## 7. Count number of substrings
+## 8. Reverse alternate nodes in the linked list
