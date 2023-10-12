@@ -11,3 +11,4 @@
 ## 10. Insert in a sorted list
 ## 11. Height of Binary tree
 ## 12. Nodes at given distance in binary tree
+## 13. Duplicate subtree in binary tree
