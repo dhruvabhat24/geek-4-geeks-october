@@ -20,3 +20,4 @@
 ## 19. Eventual Safe States
 ## 20. Level of Nodes
 ## 21. Form a number divisible by 3 using array digits
+## 22. Sum of all divisors from 1 to n
