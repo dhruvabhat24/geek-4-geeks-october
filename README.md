@@ -22,3 +22,4 @@
 ## 21. Form a number divisible by 3 using array digits
 ## 22. Sum of all divisors from 1 to n
 ## 23. Number of paths
+## 24. Maximum sum increasing subsequence
