@@ -23,3 +23,4 @@
 ## 22. Sum of all divisors from 1 to n
 ## 23. Number of paths
 ## 24. Maximum sum increasing subsequence
+## 25. Palindromic Partitioning
