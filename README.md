@@ -24,3 +24,4 @@
 ## 23. Number of paths
 ## 24. Maximum sum increasing subsequence
 ## 25. Palindromic Partitioning
+## 26. Knapsack with Duplicate Items
