@@ -25,3 +25,4 @@
 ## 24. Maximum sum increasing subsequence
 ## 25. Palindromic Partitioning
 ## 26. Knapsack with Duplicate Items
+## 27. Minimum Operations
