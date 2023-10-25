@@ -1,4 +1,4 @@
-# geek-4-geeks-practice
+# OCTOBER
 ##  1 Number Of Enclaves
 ## 2. Boolean Matrix
 ## 3. Boundary traversal of matrix 
