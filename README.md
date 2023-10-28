@@ -27,3 +27,4 @@
 ## 26. Knapsack with Duplicate Items
 ## 27. Minimum Operations
 ## 28. Minimum Deletions
+## 29. Bleak Numbers
