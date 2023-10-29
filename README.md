@@ -28,3 +28,4 @@
 ## 27. Minimum Operations
 ## 28. Minimum Deletions
 ## 29. Bleak Numbers
+## 30. Check whether K-th bit is set or not
