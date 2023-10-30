@@ -29,3 +29,4 @@
 ## 28. Minimum Deletions
 ## 29. Bleak Numbers
 ## 30. Check whether K-th bit is set or not
+## 31. Sum of XOR of all pairs
